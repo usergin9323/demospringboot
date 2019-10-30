@@ -1,0 +1,13 @@
+server:
+  port: 9004
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/test?serverTimezone=UTC
+    useranme: root
+    password: root
+ jpa:
+   hibernate:
+     ddl-auto: create
+     show-sql: true
+
